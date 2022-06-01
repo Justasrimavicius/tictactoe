@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-window{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 20px;
+    width: 50%;
+    height: 70%;
+    background-color: rgb(233, 215, 215);
+}
+#lower-window{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+button{
+    border: none;
+    text-decoration: none;
+    background: none;
+    font-size: 40px;
+    font-weight: bold;
+}
+#score{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tiles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    width: 100%;
+}
+.window{
+    background-color: rgb(233, 215, 215);
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: rgb(1, 33, 33);
+    font-weight: 100;
+}
+#first,#second,#third{
+    border-top: 0;
+}
+#seventh,#eigth,#ninth{
+    border-bottom: 0;
+}
+#first,#fourth,#seventh{
+    border-left: 0;
+}
+#third,#sixth,#ninth{
+    border-right: 0;
+}
