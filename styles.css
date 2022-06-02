@@ -21,18 +21,12 @@ body{
     align-items: center;
 
 }
-button{
-    border: none;
-    text-decoration: none;
-    background: none;
-    font-size: 40px;
-    font-weight: bold;
-}
+
 #score{
     font-size: 40px;
     font-weight: bold;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 #tiles{
